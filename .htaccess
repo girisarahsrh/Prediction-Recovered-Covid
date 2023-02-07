@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|application/assets|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+php_value max_input_vars 900000 
+php_value max_execution_time 2000
+php_value memory_limit 900M
+
