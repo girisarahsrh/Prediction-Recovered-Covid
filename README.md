@@ -240,3 +240,5 @@ This project is licensed under the [MIT License](license.txt).
 ---
 
 > ⚠️ **Disclaimer:** This application is built for academic research purposes. Prediction results are based on historical data and neural network modeling and should not be used as a substitute for official health guidance.
+
+# Prediction-Recovered-Covid
